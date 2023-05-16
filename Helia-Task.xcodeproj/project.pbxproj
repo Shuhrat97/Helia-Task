@@ -13,13 +13,13 @@
 		8D11970D2A0FCED700FC30EF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D11970C2A0FCED700FC30EF /* Color+Extensions.swift */; };
 		8D1197102A0FEC7D00FC30EF /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D11970F2A0FEC7D00FC30EF /* TabbarView.swift */; };
 		8D1197132A0FED4300FC30EF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1197122A0FED4300FC30EF /* ProfileView.swift */; };
-		8D1197182A10007200FC30EF /* urbanist-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D1197172A10007200FC30EF /* urbanist-bold.ttf */; };
 		8D11971A2A10016800FC30EF /* Font+Extansions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1197192A10016800FC30EF /* Font+Extansions.swift */; };
 		8D11971C2A10020100FC30EF /* urbanist-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D11971B2A10020100FC30EF /* urbanist-semibold.ttf */; };
 		8D11971E2A11068600FC30EF /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D11971D2A11068600FC30EF /* ProfileViewModel.swift */; };
 		8D2EC9982A13B73A00C30908 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2EC9972A13B73A00C30908 /* BookingView.swift */; };
 		8D2EC99A2A13B95A00C30908 /* BookingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2EC9992A13B95A00C30908 /* BookingViewModel.swift */; };
 		8D2EC99C2A13C09500C30908 /* BookingListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2EC99B2A13C09500C30908 /* BookingListItem.swift */; };
+		8D2EC99E2A13C8C500C30908 /* urbanist-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D2EC99D2A13C8C500C30908 /* urbanist-bold.ttf */; };
 		8D46D7B32A1122D900F59F02 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D7B22A1122D900F59F02 /* ImagePicker.swift */; };
 		8D46D7B62A112D7000F59F02 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D7B52A112D7000F59F02 /* HomeView.swift */; };
 		8D46D7B82A11416900F59F02 /* urbanist-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D46D7B72A11416900F59F02 /* urbanist-regular.ttf */; };
@@ -47,13 +47,13 @@
 		8D11970F2A0FEC7D00FC30EF /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 		8D1197122A0FED4300FC30EF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		8D1197162A0FFADA00FC30EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1197172A10007200FC30EF /* urbanist-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "urbanist-bold.ttf"; path = "../../../../../../Downloads/urbanist-bold.ttf"; sourceTree = "<group>"; };
 		8D1197192A10016800FC30EF /* Font+Extansions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extansions.swift"; sourceTree = "<group>"; };
 		8D11971B2A10020100FC30EF /* urbanist-semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "urbanist-semibold.ttf"; sourceTree = "<group>"; };
 		8D11971D2A11068600FC30EF /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		8D2EC9972A13B73A00C30908 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 		8D2EC9992A13B95A00C30908 /* BookingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewModel.swift; sourceTree = "<group>"; };
 		8D2EC99B2A13C09500C30908 /* BookingListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingListItem.swift; sourceTree = "<group>"; };
+		8D2EC99D2A13C8C500C30908 /* urbanist-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "urbanist-bold.ttf"; sourceTree = "<group>"; };
 		8D46D7B22A1122D900F59F02 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		8D46D7B52A112D7000F59F02 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8D46D7B72A11416900F59F02 /* urbanist-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "urbanist-regular.ttf"; sourceTree = "<group>"; };
@@ -160,9 +160,9 @@
 		8D1197142A0FFA8000FC30EF /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				8D2EC99D2A13C8C500C30908 /* urbanist-bold.ttf */,
 				8D46D7B72A11416900F59F02 /* urbanist-regular.ttf */,
 				8D11971B2A10020100FC30EF /* urbanist-semibold.ttf */,
-				8D1197172A10007200FC30EF /* urbanist-bold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -298,9 +298,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D2EC99E2A13C8C500C30908 /* urbanist-bold.ttf in Resources */,
 				8D1197052A0FCB7A00FC30EF /* Preview Assets.xcassets in Resources */,
 				8D11971C2A10020100FC30EF /* urbanist-semibold.ttf in Resources */,
-				8D1197182A10007200FC30EF /* urbanist-bold.ttf in Resources */,
 				8D1197022A0FCB7A00FC30EF /* Assets.xcassets in Resources */,
 				8D46D7B82A11416900F59F02 /* urbanist-regular.ttf in Resources */,
 			);
