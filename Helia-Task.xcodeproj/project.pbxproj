@@ -8,17 +8,68 @@
 
 /* Begin PBXBuildFile section */
 		8D1196FE2A0FCB7700FC30EF /* Helia_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1196FD2A0FCB7700FC30EF /* Helia_TaskApp.swift */; };
-		8D1197002A0FCB7700FC30EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1196FF2A0FCB7700FC30EF /* ContentView.swift */; };
 		8D1197022A0FCB7A00FC30EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1197012A0FCB7A00FC30EF /* Assets.xcassets */; };
 		8D1197052A0FCB7A00FC30EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1197042A0FCB7A00FC30EF /* Preview Assets.xcassets */; };
+		8D11970D2A0FCED700FC30EF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D11970C2A0FCED700FC30EF /* Color+Extensions.swift */; };
+		8D1197102A0FEC7D00FC30EF /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D11970F2A0FEC7D00FC30EF /* TabbarView.swift */; };
+		8D1197132A0FED4300FC30EF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1197122A0FED4300FC30EF /* ProfileView.swift */; };
+		8D1197182A10007200FC30EF /* urbanist-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D1197172A10007200FC30EF /* urbanist-bold.ttf */; };
+		8D11971A2A10016800FC30EF /* Font+Extansions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1197192A10016800FC30EF /* Font+Extansions.swift */; };
+		8D11971C2A10020100FC30EF /* urbanist-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D11971B2A10020100FC30EF /* urbanist-semibold.ttf */; };
+		8D11971E2A11068600FC30EF /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D11971D2A11068600FC30EF /* ProfileViewModel.swift */; };
+		8D2EC9982A13B73A00C30908 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2EC9972A13B73A00C30908 /* BookingView.swift */; };
+		8D2EC99A2A13B95A00C30908 /* BookingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2EC9992A13B95A00C30908 /* BookingViewModel.swift */; };
+		8D2EC99C2A13C09500C30908 /* BookingListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2EC99B2A13C09500C30908 /* BookingListItem.swift */; };
+		8D46D7B32A1122D900F59F02 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D7B22A1122D900F59F02 /* ImagePicker.swift */; };
+		8D46D7B62A112D7000F59F02 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D7B52A112D7000F59F02 /* HomeView.swift */; };
+		8D46D7B82A11416900F59F02 /* urbanist-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D46D7B72A11416900F59F02 /* urbanist-regular.ttf */; };
+		8D46D7BB2A12501F00F59F02 /* UniversalRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D7BA2A12501F00F59F02 /* UniversalRouter.swift */; };
+		8D46D7EF2A135B5900F59F02 /* HotelListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D7EE2A135B5900F59F02 /* HotelListItemView.swift */; };
+		8D46D7F22A1363F900F59F02 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D7F12A1363F900F59F02 /* SearchView.swift */; };
+		8D46D7F42A13660900F59F02 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D7F32A13660900F59F02 /* UserPreferences.swift */; };
+		8D46D7F62A137F5800F59F02 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D7F52A137F5800F59F02 /* HomeViewModel.swift */; };
+		8D46D7FA2A137FA100F59F02 /* HotelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D7F92A137FA100F59F02 /* HotelModel.swift */; };
+		8D46D7FC2A13810000F59F02 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D7FB2A13810000F59F02 /* SearchViewModel.swift */; };
+		8D46D7FF2A1383A900F59F02 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D7FE2A1383A900F59F02 /* FavoriteView.swift */; };
+		8D46D8012A1383CA00F59F02 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D8002A1383CA00F59F02 /* FavoriteViewModel.swift */; };
+		8D46D8032A1395EB00F59F02 /* HotelGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D8022A1395EB00F59F02 /* HotelGridItemView.swift */; };
+		8D46D8052A139B1800F59F02 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D8042A139B1800F59F02 /* FilterView.swift */; };
+		8D46D8072A13AA3200F59F02 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D8062A13AA3200F59F02 /* SectionView.swift */; };
+		8D46D8092A13AA7D00F59F02 /* RangedSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D8082A13AA7D00F59F02 /* RangedSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8D1196FA2A0FCB7700FC30EF /* Helia-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Helia-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1196FD2A0FCB7700FC30EF /* Helia_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helia_TaskApp.swift; sourceTree = "<group>"; };
-		8D1196FF2A0FCB7700FC30EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8D1197012A0FCB7A00FC30EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D1197042A0FCB7A00FC30EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D11970C2A0FCED700FC30EF /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		8D11970F2A0FEC7D00FC30EF /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		8D1197122A0FED4300FC30EF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8D1197162A0FFADA00FC30EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1197172A10007200FC30EF /* urbanist-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "urbanist-bold.ttf"; path = "../../../../../../Downloads/urbanist-bold.ttf"; sourceTree = "<group>"; };
+		8D1197192A10016800FC30EF /* Font+Extansions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extansions.swift"; sourceTree = "<group>"; };
+		8D11971B2A10020100FC30EF /* urbanist-semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "urbanist-semibold.ttf"; sourceTree = "<group>"; };
+		8D11971D2A11068600FC30EF /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		8D2EC9972A13B73A00C30908 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		8D2EC9992A13B95A00C30908 /* BookingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewModel.swift; sourceTree = "<group>"; };
+		8D2EC99B2A13C09500C30908 /* BookingListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingListItem.swift; sourceTree = "<group>"; };
+		8D46D7B22A1122D900F59F02 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		8D46D7B52A112D7000F59F02 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8D46D7B72A11416900F59F02 /* urbanist-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "urbanist-regular.ttf"; sourceTree = "<group>"; };
+		8D46D7BA2A12501F00F59F02 /* UniversalRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalRouter.swift; sourceTree = "<group>"; };
+		8D46D7EE2A135B5900F59F02 /* HotelListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelListItemView.swift; sourceTree = "<group>"; };
+		8D46D7F12A1363F900F59F02 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		8D46D7F32A13660900F59F02 /* UserPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		8D46D7F52A137F5800F59F02 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		8D46D7F92A137FA100F59F02 /* HotelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelModel.swift; sourceTree = "<group>"; };
+		8D46D7FB2A13810000F59F02 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		8D46D7FE2A1383A900F59F02 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		8D46D8002A1383CA00F59F02 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
+		8D46D8022A1395EB00F59F02 /* HotelGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelGridItemView.swift; sourceTree = "<group>"; };
+		8D46D8042A139B1800F59F02 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		8D46D8062A13AA3200F59F02 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		8D46D8082A13AA7D00F59F02 /* RangedSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangedSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +102,15 @@
 		8D1196FC2A0FCB7700FC30EF /* Helia-Task */ = {
 			isa = PBXGroup;
 			children = (
+				8D46D7F72A137F8900F59F02 /* Models */,
+				8D1197142A0FFA8000FC30EF /* Fonts */,
+				8D46D7C72A12697800F59F02 /* Supporting Files */,
+				8D46D7B92A12500900F59F02 /* Router */,
+				8D1197162A0FFADA00FC30EF /* Info.plist */,
+				8D46D7ED2A135B3300F59F02 /* Views */,
+				8D11970E2A0FEC5C00FC30EF /* Scenes */,
+				8D11970B2A0FCEA900FC30EF /* Extensions */,
 				8D1196FD2A0FCB7700FC30EF /* Helia_TaskApp.swift */,
-				8D1196FF2A0FCB7700FC30EF /* ContentView.swift */,
 				8D1197012A0FCB7A00FC30EF /* Assets.xcassets */,
 				8D1197032A0FCB7A00FC30EF /* Preview Content */,
 			);
@@ -65,6 +123,121 @@
 				8D1197042A0FCB7A00FC30EF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8D11970B2A0FCEA900FC30EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D11970C2A0FCED700FC30EF /* Color+Extensions.swift */,
+				8D1197192A10016800FC30EF /* Font+Extansions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8D11970E2A0FEC5C00FC30EF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8D2EC9952A13B6E800C30908 /* Booking */,
+				8D46D7FD2A13839600F59F02 /* FavoriteView */,
+				8D46D7F02A1363CB00F59F02 /* Search */,
+				8D46D7B42A112D5F00F59F02 /* Home */,
+				8D1197112A0FED2600FC30EF /* Profile */,
+				8D11970F2A0FEC7D00FC30EF /* TabbarView.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8D1197112A0FED2600FC30EF /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8D1197122A0FED4300FC30EF /* ProfileView.swift */,
+				8D11971D2A11068600FC30EF /* ProfileViewModel.swift */,
+				8D46D7B22A1122D900F59F02 /* ImagePicker.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8D1197142A0FFA8000FC30EF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8D46D7B72A11416900F59F02 /* urbanist-regular.ttf */,
+				8D11971B2A10020100FC30EF /* urbanist-semibold.ttf */,
+				8D1197172A10007200FC30EF /* urbanist-bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8D2EC9952A13B6E800C30908 /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				8D2EC9972A13B73A00C30908 /* BookingView.swift */,
+				8D2EC9992A13B95A00C30908 /* BookingViewModel.swift */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		8D46D7B42A112D5F00F59F02 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8D46D7B52A112D7000F59F02 /* HomeView.swift */,
+				8D46D7F52A137F5800F59F02 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8D46D7B92A12500900F59F02 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				8D46D7BA2A12501F00F59F02 /* UniversalRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		8D46D7C72A12697800F59F02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D46D7F32A13660900F59F02 /* UserPreferences.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D46D7ED2A135B3300F59F02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D46D7EE2A135B5900F59F02 /* HotelListItemView.swift */,
+				8D46D8022A1395EB00F59F02 /* HotelGridItemView.swift */,
+				8D46D8042A139B1800F59F02 /* FilterView.swift */,
+				8D46D8062A13AA3200F59F02 /* SectionView.swift */,
+				8D46D8082A13AA7D00F59F02 /* RangedSliderView.swift */,
+				8D2EC99B2A13C09500C30908 /* BookingListItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8D46D7F02A1363CB00F59F02 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				8D46D7F12A1363F900F59F02 /* SearchView.swift */,
+				8D46D7FB2A13810000F59F02 /* SearchViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		8D46D7F72A137F8900F59F02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D46D7F92A137FA100F59F02 /* HotelModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8D46D7FD2A13839600F59F02 /* FavoriteView */ = {
+			isa = PBXGroup;
+			children = (
+				8D46D7FE2A1383A900F59F02 /* FavoriteView.swift */,
+				8D46D8002A1383CA00F59F02 /* FavoriteViewModel.swift */,
+			);
+			path = FavoriteView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +299,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D1197052A0FCB7A00FC30EF /* Preview Assets.xcassets in Resources */,
+				8D11971C2A10020100FC30EF /* urbanist-semibold.ttf in Resources */,
+				8D1197182A10007200FC30EF /* urbanist-bold.ttf in Resources */,
 				8D1197022A0FCB7A00FC30EF /* Assets.xcassets in Resources */,
+				8D46D7B82A11416900F59F02 /* urbanist-regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +313,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D1197002A0FCB7700FC30EF /* ContentView.swift in Sources */,
+				8D46D7BB2A12501F00F59F02 /* UniversalRouter.swift in Sources */,
+				8D46D7F42A13660900F59F02 /* UserPreferences.swift in Sources */,
+				8D11971E2A11068600FC30EF /* ProfileViewModel.swift in Sources */,
+				8D1197132A0FED4300FC30EF /* ProfileView.swift in Sources */,
+				8D2EC99C2A13C09500C30908 /* BookingListItem.swift in Sources */,
 				8D1196FE2A0FCB7700FC30EF /* Helia_TaskApp.swift in Sources */,
+				8D1197102A0FEC7D00FC30EF /* TabbarView.swift in Sources */,
+				8D2EC99A2A13B95A00C30908 /* BookingViewModel.swift in Sources */,
+				8D46D7FC2A13810000F59F02 /* SearchViewModel.swift in Sources */,
+				8D46D7FA2A137FA100F59F02 /* HotelModel.swift in Sources */,
+				8D46D8032A1395EB00F59F02 /* HotelGridItemView.swift in Sources */,
+				8D46D7FF2A1383A900F59F02 /* FavoriteView.swift in Sources */,
+				8D46D7B32A1122D900F59F02 /* ImagePicker.swift in Sources */,
+				8D46D7EF2A135B5900F59F02 /* HotelListItemView.swift in Sources */,
+				8D46D8072A13AA3200F59F02 /* SectionView.swift in Sources */,
+				8D46D7F62A137F5800F59F02 /* HomeViewModel.swift in Sources */,
+				8D46D7F22A1363F900F59F02 /* SearchView.swift in Sources */,
+				8D46D8012A1383CA00F59F02 /* FavoriteViewModel.swift in Sources */,
+				8D46D7B62A112D7000F59F02 /* HomeView.swift in Sources */,
+				8D46D8052A139B1800F59F02 /* FilterView.swift in Sources */,
+				8D46D8092A13AA7D00F59F02 /* RangedSliderView.swift in Sources */,
+				8D11971A2A10016800FC30EF /* Font+Extansions.swift in Sources */,
+				8D2EC9982A13B73A00C30908 /* BookingView.swift in Sources */,
+				8D11970D2A0FCED700FC30EF /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,11 +468,13 @@
 				DEVELOPMENT_TEAM = BSQ35BFH5G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Helia-Task/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +499,13 @@
 				DEVELOPMENT_TEAM = BSQ35BFH5G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Helia-Task/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

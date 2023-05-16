@@ -8,8 +8,30 @@
 import SwiftUI
 
 struct FavoriteView: View {
+    @StateObject var router = UniversalRouter()
+    @StateObject var viewModel = FavoriteViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List($viewModel.hotels){ hotel in
+            Button {
+                router.scene = AnyView(EmptyView())
+            } label: {
+                HotelListItemView(hotel: hotel) {
+                    viewModel.favouriteBtnTapped(hotel: hotel.wrappedValue)
+                }
+                .buttonStyle(.plain)
+            }
+            .listRowSeparator(.hidden)
+            .listSectionSeparator(.hidden)
+            .listRowBackground(Color.backgroundColor)
+        }
+        .background(Color.backgroundColor)
+        .listStyle(.plain)
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationTitle("Favorite")
+        .onAppear {
+            viewModel.onAppear()
+        }
     }
 }
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSCameraUsageDescription</key>
+	<string>To get your product image we should need access to your camera</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need to acsess to your library to get your product image</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>urbanist-regular.ttf</string>
+		<string>urbanist-semibold.ttf</string>
+		<string>urbanist-bold.ttf</string>
+	</array>
+</dict>
+</plist>

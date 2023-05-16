@@ -8,19 +8,20 @@
 import SwiftUI
 
 struct HotelListItemView: View {
-    let hotel:Hotel
+    @Binding var hotel:HotelModel
+    let btnTapped: () -> Void
     var body: some View {
         HStack {
-            Image(hotel.image != nil ? hotel.image! : "presidentHotel")
+            Image(hotel.image)
                 .resizable()
                 .frame(width: 100, height: 100)
-            
+                .cornerRadius(16)
             VStack {
-                Text(hotel.name ?? "")
+                Text(hotel.name)
                     .font(.appFontBold(size: 20))
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
                 
-                Text(hotel.location ?? "")
+                Text(hotel.location)
                     .font(.appFontRegular(size: 14))
                     .foregroundColor(.grayTextColor)
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
@@ -53,14 +54,17 @@ struct HotelListItemView: View {
                 Spacer()
                 
                 Button {
-                    
+                    hotel.favorite.toggle()
+                    btnTapped()
                 } label: {
                     Image(hotel.favorite ? "bookmarkSelected" : "bookmark")
                         .renderingMode(.template)
+                        .resizable()
+                        .renderingMode(.template)
                         .foregroundColor(hotel.favorite ? .appGreen : .black)
+                        .scaledToFit()
+                        .frame(width: 24, height: 24)
                 }
-                .frame(width: 16, height: 20)
-                
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)

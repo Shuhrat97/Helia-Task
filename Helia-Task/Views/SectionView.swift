@@ -8,13 +8,30 @@
 import SwiftUI
 
 struct SectionView: View {
+    let title: String
+    let btnTitle: String
+    let showButton: Bool
+    let btnTapped: () -> Void
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+        HStack {
+            Text(title)
+                .font(.appFontBold(size: 18))
+            
+            Spacer()
+            
+            if showButton {
+                Button {
+                    btnTapped()
+                } label: {
+                    Text(btnTitle)
+                        .font(.appFontBold(size: 16))
+                        .foregroundColor(.appGreen)
+                }
+                
+            }
 
-struct SectionView_Previews: PreviewProvider {
-    static var previews: some View {
-        SectionView()
+        }
+        .padding(.horizontal)
     }
 }
